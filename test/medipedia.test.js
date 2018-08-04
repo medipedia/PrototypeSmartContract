@@ -113,10 +113,5 @@ contract('Medipedia', async (accounts) => {
         
         const noOfRequests = await medipedia.getNoOfMsgs(accounts[5]);
         assert.equal("2", noOfRequests, 'Number of message requests should be 2');
-    }); 
-    /*
-
-
-    
-    */
+    });
   });
